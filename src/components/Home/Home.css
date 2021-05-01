@@ -1,0 +1,10 @@
+.home-cart{
+    display:flex;
+    margin-left: 8%;
+    margin-right:8%;
+}
+@media screen and (max-width:480px){
+    .home-cart{
+        display: block;
+    }
+}

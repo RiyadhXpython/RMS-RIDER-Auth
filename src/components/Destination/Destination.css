@@ -1,0 +1,30 @@
+.info-card{
+    margin-left: 30px;
+    border: 1px solid white;
+    padding:1.5%;
+    margin-right: 2%;
+    border-radius:5px;
+    background-color:antiquewhite
+}
+.map-style{
+    display:flex;
+    margin: 5%;
+}
+@media screen and (max-width:480px){
+    .map-style{
+        margin: 0%;
+        text-align:center;
+        display: block;
+    }
+    .map {
+        margin-top: 10px;
+    }
+    .info-card{
+        margin-left: 9px;
+        border-radius:5px;
+    }
+    .google-map{
+        height:500px;
+        width:95%;
+    }
+}

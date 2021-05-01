@@ -1,0 +1,35 @@
+.map-img img{
+    margin-top: 110px;
+}
+.option-style{
+    border: 1px solid red;
+}
+.place{
+    margin-left: 20%;
+}
+.place-info{
+    margin-top: 110px;
+    border-radius: 10px;
+    background: #abbaab;  
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  
+    background: linear-gradient(to right, #ffffff, #abbaab); 
+}
+@media screen and (max-width:480px){
+    .place{
+        margin-top:5%;
+        width:95%;
+        margin-left:2%;
+    }
+    .map-img img{
+        margin-top: 5%;
+        width:100%;
+        
+    }
+    .place-info{
+        margin-top: 1px;
+        border-radius: 10px;
+        background: #abbaab;  
+        background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  
+        background: linear-gradient(to right, #ffff)
+    }
+}
